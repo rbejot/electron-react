@@ -12,6 +12,7 @@ function App() {
           {' '}
           <code>src/App.js</code>
           {' '}
+          {process.env.NODE_ENV}
           and save to reload.
         </p>
         <a
